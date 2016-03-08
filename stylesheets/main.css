@@ -1,0 +1,161 @@
+/* General Positioning */
+
+html, body {
+    padding: 0;
+    margin: 0;
+
+    font-family: 'Avenir', 'Arial', 'Helvetica', sans-serif;
+    background-color: rgb(255, 250, 245);
+}
+
+/* Content */
+
+@media (max-width: 440px) {
+    div.content div.about div.item img {
+        width: 80%;
+        margin: 0 10% 10px 10%;
+    }
+
+    div.content div.about div.item span.description {
+        width: 100%;
+    }
+}
+
+div.content {
+    margin-top: 40px;
+}
+
+p.introduction:first-child::first-line {
+    font-size: 18px;
+}
+
+p.introduction, p.experience {
+    font-size: 16px;
+    font-weight: 400;
+    font-color: #111;
+    margin-bottom: 30px;
+}
+
+p.experience {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p.experience ul {
+    margin: 0;
+    padding: 0;
+}
+
+p.experience ul li {
+    font-size: 16px;
+}
+
+div.about, div.contact {
+    background-color: #333;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+
+div.contact ul {
+    list-style-type: none;
+    padding: 0;
+    color: white;
+}
+
+div.about > p  {
+    color: white;
+    font-size: 24px;
+
+    text-align: center;
+}
+
+div.contact {
+    margin-top: 20px;
+}
+
+div.contact > p {
+    color: white;
+    font-size: 16px;
+
+    text-align: center;
+}
+
+div.contact > ul {
+    width: 100%;
+    text-align: center;
+}
+
+div.about div.item {
+    width: 100%;
+    background-color: rgb(255, 250, 245);
+
+    border-radius: 3px;
+    padding: 10px;
+}
+
+div.about div.item img {
+    width: 30%;
+    border-radius: 3px;
+
+    vertical-align: top;
+
+    display: inline-block;
+}
+
+div.about div.item span.description {
+    width: calc(70% - 50px);
+    min-width: 200px;
+    padding: 0px 10px;
+
+    vertical-align: top;
+    display: inline-block;
+
+    font-size: 15px;
+}
+
+div.about div.item span.description::first-line {
+    font-size: 18px;
+}
+
+/* Navigation Bar  */
+
+div.row.navigation {
+    height: 100px;
+
+    background-image: url("../assets/books.png");
+    background-size: cover;
+    background-repeat: none;
+    background-position: bottom center;
+
+    box-shadow: 0px 0px 3px black;
+}
+
+div.row.navigation ul {
+    padding: 0 0 0 20px;
+    color: #FFF;
+}
+
+div.row.navigation ul li {
+    display: inline-block;
+    height: 100px;
+    width: 150px;
+
+    box-sizing: border-box;
+    padding-top: 40px;
+
+    font-size: 18px;
+    font-weight: 400;
+}
+
+div.row.navigation ul li:first-child {
+    padding: 0;
+    width: 400px;
+}
+
+div.row.navigation ul li:first-child img {
+    width: auto;
+    height: 100px;
+
+    padding: 20px;
+}

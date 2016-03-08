@@ -1,0 +1,15 @@
+{
+  "name": "barbaramurphy.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/barbaramurphy/barbaramurphy.github.io.git"
+  },
+  "author": "Benjamin Murphy",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}
